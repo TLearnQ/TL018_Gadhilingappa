@@ -1,0 +1,33 @@
+{
+  "http_method_count": {
+    "PUT": 1
+  },
+  "endpoints_with_responses": 1,
+  "endpoints_without_responses": 0,
+  "authentication_methods": [
+    "oAuth2ClientCredentials"
+  ],
+  "request_response_map": [
+    {
+      "path": "/val-services/{valServiceId}/configurations/{configurationId}",
+      "method": "PUT",
+      "responses": [
+        "204",
+        "307",
+        "308",
+        "400",
+        "401",
+        "403",
+        "404",
+        "411",
+        "413",
+        "415",
+        "429",
+        "500",
+        "503",
+        "default"
+      ]
+    }
+  ],
+  "total_endpoints": 1
+}

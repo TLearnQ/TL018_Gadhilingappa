@@ -1,0 +1,56 @@
+[
+  {
+    "path": "/val-services/{valServiceId}/configurations/{configurationId}",
+    "method": "PUT",
+    "summary": null,
+    "description": "Perfomrs event triggered network slice adaptation.\n",
+    "operationId": "EventTriggeredNetworkAdaptation",
+    "tags": [
+      "Event triggered network adaptation (Document)"
+    ],
+    "responses": {
+      "204": {
+        "description": "No Content. The requested network slice adaptation is successfully processed.\n"
+      },
+      "307": {
+        "$ref": "TS29122_CommonData.yaml#/components/responses/307"
+      },
+      "308": {
+        "$ref": "TS29122_CommonData.yaml#/components/responses/308"
+      },
+      "400": {
+        "$ref": "TS29122_CommonData.yaml#/components/responses/400"
+      },
+      "401": {
+        "$ref": "TS29122_CommonData.yaml#/components/responses/401"
+      },
+      "403": {
+        "$ref": "TS29122_CommonData.yaml#/components/responses/403"
+      },
+      "404": {
+        "$ref": "TS29122_CommonData.yaml#/components/responses/404"
+      },
+      "411": {
+        "$ref": "TS29122_CommonData.yaml#/components/responses/411"
+      },
+      "413": {
+        "$ref": "TS29122_CommonData.yaml#/components/responses/413"
+      },
+      "415": {
+        "$ref": "TS29122_CommonData.yaml#/components/responses/415"
+      },
+      "429": {
+        "$ref": "TS29122_CommonData.yaml#/components/responses/429"
+      },
+      "500": {
+        "$ref": "TS29122_CommonData.yaml#/components/responses/500"
+      },
+      "503": {
+        "$ref": "TS29122_CommonData.yaml#/components/responses/503"
+      },
+      "default": {
+        "$ref": "TS29122_CommonData.yaml#/components/responses/default"
+      }
+    }
+  }
+]

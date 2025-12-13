@@ -1,0 +1,5 @@
+2025-12-13 13:01:39,213 | INFO | Starting service extraction
+2025-12-13 13:01:39,213 | INFO | Loading YAML: C:\Users\ADMIN\OneDrive\Desktop\telcom\5gapi\etc.yaml
+2025-12-13 13:01:39,241 | INFO | Extracted endpoint: PUT /val-services/{valServiceId}/configurations/{configurationId}
+2025-12-13 13:01:39,244 | INFO | Services saved
+2025-12-13 13:01:39,247 | INFO | Summary saved successfully
